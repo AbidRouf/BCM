@@ -3,18 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSearch, faTimes, faEnvelope, faAdjust, faUser } from '@fortawesome/free-solid-svg-icons'
-import Shapes from './ui/Shapes';
-
-library.add(faTimes, faEnvelope, faAdjust)
 
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Shapes> */}
       <App />
-    {/* </Shapes> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

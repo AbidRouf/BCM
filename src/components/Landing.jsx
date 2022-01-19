@@ -1,5 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaEnvelope } from 'react-icons/fa';
 
 
 const scaleFactor = 1 / 20
@@ -35,8 +35,8 @@ const Landing = ({ toggleModal }) => {
             </a>
 
             <a href="#">
-                <button className="mail__btn click" onClick={() => toggleModal()}>
-                    <FontAwesomeIcon icon="envelope" />
+                <button className="mail__btn icon click" onClick={() => toggleModal()}>
+                    <FaEnvelope />
                 </button>
             </a>
             

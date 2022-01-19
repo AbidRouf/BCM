@@ -1,4 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaTimes } from 'react-icons/fa';
 import React from 'react'
 
 
@@ -12,8 +13,8 @@ const Modal = ({ toggleModal }) => {
             <div className="modal__half modal__contact">
 
 
-                <i className="modal__exit click" onClick={() => toggleModal()} >
-                    <FontAwesomeIcon icon="times" />
+                <i className="modal__exit icon click" onClick={() => toggleModal()} >
+                    <FaTimes />
                 </i>
 
                 <h3 className="modal__title modal__title--contact">Contact Us</h3>

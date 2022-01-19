@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import NavLogo from '../assets/BlueCaveMedia.svg'
+import { FaAdjust } from 'react-icons/fa';
 
 const Nav = () => {
 
@@ -38,7 +38,7 @@ const Nav = () => {
 
                     <li className="nav__link icon click" /*onClick={toggleContrast()}*/>
                         <a href="#">
-                            <FontAwesomeIcon icon="adjust" />
+                            <FaAdjust />
                         </a>
                     </li>
                 </ul>
